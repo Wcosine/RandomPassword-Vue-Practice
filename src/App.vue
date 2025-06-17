@@ -14,6 +14,7 @@ const randomPassword = ref('')
 let result = ''
 
 const generate = () => {
+  let result = ''
   let i = 0
   for (i = 0; i < inpNum.value; i++) {
     const randomindex = Math.floor(Math.random() * allChars.length)
