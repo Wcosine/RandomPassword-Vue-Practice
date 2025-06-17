@@ -23,7 +23,7 @@ const generate = () => {
 }
 
 const copy = async () => {
-  if (randomPassword === '') {
+  if (randomPassword.value === '') {
     alert('密碼正在從宇宙飛來的路上 🚀 請稍候')
     return
   }
