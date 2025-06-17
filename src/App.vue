@@ -11,7 +11,6 @@ const allChars = numbers + symbols + upperCase + lowerCase
 
 const inpNum = ref(6)
 const randomPassword = ref('')
-let result = ''
 
 const generate = () => {
   let result = ''
@@ -24,7 +23,7 @@ const generate = () => {
 }
 
 const copy = async () => {
-  if (result === '') {
+  if (randomPassword === '') {
     alert('密碼正在從宇宙飛來的路上 🚀 請稍候')
     return
   }
